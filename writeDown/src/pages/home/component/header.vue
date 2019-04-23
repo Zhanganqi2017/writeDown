@@ -1,6 +1,7 @@
 <template>
     <div class="homeHeader">
         {{this.$store.state.header}}Header
+        <p>wrotedown</p>
     </div>
 </template>
 
