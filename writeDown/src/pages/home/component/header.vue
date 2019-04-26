@@ -13,6 +13,9 @@ export default {
   },
   created() {
     console.log("created");
+    this.$store.state.header = "inComponent";
+    // this.$store.dispatch("change", "bydispatch");
+    // this.$store.commit("changVal", "bycommitHEADER");
   }
 };
 </script>

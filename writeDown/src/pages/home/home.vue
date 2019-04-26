@@ -2,11 +2,12 @@
  * @Author: Zhanganqi2017 
  * @Date: 2019-04-23 12:16:56 
  * @Last Modified by: Zhanganqi2017
- * @Last Modified time: 2019-04-23 13:51:48
+ * @Last Modified time: 2019-04-26 09:59:21
  */
 <template>
     <div>
         <home-header></home-header>
+        {{this.$store.state.header}}
     </div>
 </template>
 
